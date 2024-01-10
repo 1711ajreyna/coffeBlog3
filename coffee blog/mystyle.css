@@ -1,0 +1,80 @@
+/*global*/
+*{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height:300px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    display: block;
+    width: 180px;
+    background-color: rgb(170, 18, 18);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: Uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*main*/
+.main{
+    width: 60%;
+    margin-right: 20px;
+}
+/*blog*/
+.blogContainer{
+    margin-top: 20px;
+}
+.blogContainer p{
+    margin: 20px;
+}
+.blogContainer h3{
+    margin: 20px;
+}
+.blogContainer .btn{
+    background-color: black;
+}
+#aboutUs{ text-align: center;
+
+}
+/*footer*/
+.footer{
+    position: absolute;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:0px;
+    padding-top:10px;
+    text-align: center;
+    height:80px;
+    background-color: black;
+    color:white;
+    bottom: 0%;
+    width: 92%;
+}
